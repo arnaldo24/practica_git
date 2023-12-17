@@ -9,7 +9,16 @@ body,html{
 }
 body{
    background-color: skyblue;
+   padding: 10px;
 }
 h1{
-    text-align: center;
+   padding: 1rem 0;
+}
+ul{
+   list-style: none;
+   display: flex;
+   li{
+      border: 1px solid red;
+      padding: 1rem;
+   }
 }
